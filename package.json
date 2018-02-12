@@ -1,0 +1,23 @@
+{
+  "name": "reactive-snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 9000 --inline --progress --profile --colors --watch --content-base src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.4.5",
+    "awesome-typescript-loader": "^3.4.1",
+    "rxjs": "^5.5.6",
+    "source-map-loader": "^0.2.3",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.7.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
